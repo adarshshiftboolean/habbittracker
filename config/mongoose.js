@@ -5,7 +5,7 @@ require("dotenv").config();
 const mongoose = require("mongoose");
 
 //  connect mongoose
-mongoose.connect(`mongodb://localhost/habbittracker`);
+mongoose.connect(`mongodb+srv://adarshsingh8008:lo9WQj01xuEVUf7v@cluster0.vlcpeas.mongodb.net/?retryWrites=true&w=majority`);
 const db = mongoose.connection;
 
 // mongoose connection | error
